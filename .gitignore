@@ -1,0 +1,4 @@
+node_modules/
+.env
+venv/
+frontend/chat-bot/.env
