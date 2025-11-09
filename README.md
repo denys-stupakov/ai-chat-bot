@@ -1,42 +1,39 @@
-hakaton 2025
+# 🛍️ Intelligent AI Shopping Chatbot
 
-#  Inteligentný AI nákupný chatbot
+## 📖 Description
+An **intelligent AI assistant** that automatically analyzes your **shopping receipts** and shows you **how much, when, where, and on what** you spend your money.  
+The system aggregates your data by **day / month / year** and lets you track your spending in real time.
 
-##  Popis
-Inteligentný AI asistent, ktorý automaticky analyzuje tvoje nákupné bločky a zobrazuje, **koľko, kedy, kde a za čo míňaš peniaze**.  
-Systém agreguje údaje podľa **dňa / mesiaca / roka** a umožňuje ich sledovať v reálnom čase.
+Useful for people who:
+- monitor their budget  
+- want to avoid unnecessary expenses  
+- want to better understand their spending habits  
 
-Užitočné pre ľudí, ktorí:
-- sledujú svoj rozpočet
-- chcú predchádzať zbytočným výdavkom
-- chcú lepšie pochopiť svoje finančné návyky
-
-Tento nástroj rýchlo a kvalitne poskytuje prehľad o nákupoch a pomáha optimalizovať výdavky.
+This tool provides a fast, clear overview of your purchases and helps you optimize your expenses.
 
 ---
 
-##  Funkcionalita
-- AI chatbot – asistent nákupov
-- Analýzy a užívateľské insighty
-- Určenie najčastejšie navštevovaných obchodov
-- Analýza kategórií výdavkov
-- Top produkty používateľa
-- Vizualizácia trendu výdavkov v čase
+## ⚙️ Features
+- 🧠 AI shopping assistant (chatbot)  
+- 📊 Data analysis and personalized insights  
+- 🏪 Detection of most frequently visited stores  
+- 🧾 Category-based spending analysis  
+- 🥇 Top purchased products  
+- 📈 Spending trend visualization over time  
 
 ---
 
-##  Použité technológie
-- **FastAPI**
-- **React**
-- **SQLite**
-- **Pandas**
-- **Groq**
+## 🧩 Tech Stack
+- **FastAPI**  
+- **React**  
+- **SQLite**  
+- **Pandas**  
+- **Groq**  
 - **LlamaIndex**
 
 ---
 
-
-###  Backend
+### 🖥️ Backend
 ```bash
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
